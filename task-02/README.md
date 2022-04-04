@@ -1,2 +1,0 @@
-# emamus
-e_kater
