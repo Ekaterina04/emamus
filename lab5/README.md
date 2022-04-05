@@ -1,30 +1,26 @@
 # ansible
-## пятая лаабааа 
+## five project 
+>the essence of the laboratory
+>>task:
+ + on servers rrobin, web1, web2 to install nginx.
+ + on servers web1, web2 Nginx he works on port 8080 and gives a custom page.
+ + on server rrobin Nginx provides load balancing of servers web1 и web2 in the mode round-robin.
+ + Installation and configuration of all software should be provided by Ansible script.
+ + upload all files to Github and write ReadMe 
 
->В чем мем всей ситуации?
->>Вот все задание, которо енам дали:
 
- + На серверах rrobin, web1, web2 установить nginx.
- + На серверах web1, web2 Nginx должен работать по порту 8080 и отдавать кастомную страницу, зайдя на которую можно понять на каком сервере вы находитесь.
- + На сервере rrobin Nginx должен обеспечить балансировку нагрузки серверов web1 и web2 в режиме round-robin. Вес каждого сервера одинаковый.
- + Установка и настройка всего ПО должна быть обеспечена Ansible-сценарием.
- + Все файлы по этому заданию выложить в Github и написать ReadMe со скринами работоспособности и инструкцию по запуску вашего Ansible-сценария
-> что я сделал? да вообще хз, оно само как-то
+##  the script works
+### a short work script
+ + copy the repository 
+ + through the terminal, go to the copied folder
+ + open [Vagrantfile ](https://github.com/Ekaterina04/emamus/blob/main/lab4/Vagrantfile)
+ + replacing line 39 `ssh_pub_key = File.readlines("/home/sirius/.ssh/id_rsa.pub").first.strip`
+ + +  path to the key
+ + write in console `vagrant up` 
+ + write in console `ansible-playbook aboba.yml`
+ + wait
+ + ****we've been waiting a long time****
 
-## Tckb ns ytvyjuj negjq? nj vjlyj crjgbhjdfnm 
-### если ты немного(много тупой) то вот че надо сделать в этой штуке
- + Скопировать репу 
- + Потом зайти через терминал в папку которую скопировали
- + Открываем Vagrantfile [как этот](https://github.com/bob4inski/ansible/blob/main/lab5/Vagrantfile)
- + меняем 46ую строчку `ssh_pub_key = File.readlines("/home/robert/.ssh/id_rsa.pub").first.strip`
- + +  надо указать тут свой путь до ключа
- + Пишем в консольке `vagrant up`  чтобы подднять виртуалки
- + Если ничего не получилось - пошел ты отсюда, неуч
- + Далее прописываем в консольке `ansible-playbook aboba.yml`
- + ждем
- + ждем
- + ждем
- + ****и еще раз ждем****
- + А если ты хочешь узнать правильно ли оно работает и работает ли, то можешь повторять за [мной](https://www.youtube.com/watch?v=ZzvM6_S0HXA)
+ + if you are not sure about the correctness of your work, then repeat after [Robert](https://www.youtube.com/watch?v=ZzvM6_S0HXA)
 
 \
