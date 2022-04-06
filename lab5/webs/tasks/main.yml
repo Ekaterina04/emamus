@@ -12,7 +12,7 @@
       nginx-package
       packeges
 - name: copypast nginx conf
-  copy:
+  template:
     src: nginxweb1.conf
     dest: /etc/nginx/nginx.conf
   notify:
