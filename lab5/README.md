@@ -27,11 +27,16 @@
 
  + # The server will initialize in the http://192.168.11.100
 
-[this is how the first page should look like](/home/sirius/Изображения/Снимок%20экрана%20от%202022-04-06%2013-09-31.png) 
+# this is how the first page should look like
 
-[this is how the second page should look like](/home/sirius/Изображения/Снимок%20экрана%20от%202022-04-06%2013-15-06.png)
+<a href="https://ibb.co/M8hSG1x"><img src="https://i.ibb.co/DGbW8MH/2022-04-06-13-09-31.png" alt="2022-04-06-13-09-31" border="0"></a>
 
- + if you are not sure about the correctness of your work, then repeat after [Robert](https://www.youtube.com/watch?v=ZzvM6_S0HXA)
+# this is how the second page should look like
+
+<a href="https://ibb.co/31PWByF"><img src="https://i.ibb.co/p2kZJvK/2022-04-06-13-17-42.png" alt="2022-04-06-13-17-42" border="0"></a>
+ + # if something is not clear, then look at how Robert did and repeat after [him](https://www.youtube.com/watch?v=ZzvM6_S0HXA)
+
+
 
 \
 
